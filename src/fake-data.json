@@ -1,0 +1,177 @@
+{
+    "menu": [
+        {
+            "id": 0,
+            "name": "All"
+        },
+        {
+            "id": 1,
+            "name": "Foods"
+        },
+        {
+            "id": 2,
+            "name": "Drinks",
+            "list": []
+        },
+        {
+            "id": 3,
+            "name": "Snacks",
+            "list": []
+        },
+        {
+            "id": 4,
+            "name": "Sauce",
+            "list": []
+        },
+        {
+            "id": 5,
+            "name": "Fast food",
+            "list": []
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Gà Rán",
+            "price": 50000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F1-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F1-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F1-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F1-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Gà rán miền Nam Hoa Kỳ, hay còn gọi là gà rán, là một món ăn xuất xứ từ miền Nam Hoa Kỳ; nguyên liệu chính là những miếng thịt gà đã được lăn bột rồi chiên trên chảo, chiên ngập dầu, chiên áp suất hoặc chiên chân không. Lớp bột chiên xù sẽ giúp cho miếng gà có một lớp vỏ ngoài giòn rụm, còn phần thịt bên trong vẫn mềm và mọng nước. Nguyên liệu được sử dụng phổ biến nhất là gà thịt.",
+            "menuId": 1
+        },
+        {
+            "id": 2,
+            "name": "Bún đậu mắm tôm",
+            "price": 30000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F2-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F2-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F2-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F2-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Bún đậu mắm tôm là món ăn đơn giản, dân dã trong ẩm thực miền Bắc Việt Nam. Đây là món thường được dùng như bữa ăn nhẹ, ăn chơi. Thành phần chính gồm có bún tươi, đậu hũ chiên vàng, chả cốm, nem chua, mắm tôm pha chanh, ớt và ăn kèm với các loại rau thơm như tía tô, kinh giới, rau húng, xà lách, cà pháo...[1] Cũng như các món ăn dân gian khác, giá thành rẻ nên được nhiều người giới bình dân ăn nên thu nhập của những người buôn bán những món ăn này khá cao.",
+            "menuId": 1
+        },
+        {
+            "id": 3,
+            "name": "Gà Popcorn",
+            "price": 100000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F3-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F3-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F3-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F3-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Gà Popcorn là một món ăn hấp dẫn không chỉ với trẻ nhỏ, mà ngay cả người lớn cũng đều \"mê mệt\" món gà béo ngon và thơm lừng này. Tuy nhiên, nhiều người thường lo lắng các món chiên rán sử dụng quá nhiều dầu gây béo phì, tăng lượng mỡ máu, ảnh hưởng đến sức khỏe nên đành từ bỏ món ăn khoái khẩu này.",
+            "menuId": 1
+        },
+        {
+            "id": 4,
+            "name": "Nem chua rán(5c)",
+            "price": 24000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F4-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F4-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F4-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F4-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Nem chua rán là một loại nem làm từ thịt lợn xay và bì lợn theo công thức cũng như quy trình khá gần gũi với nem chua và được rán vàng trong dầu ăn (hoặc nướng). Là đặc sản ẩm thực đường phố của Hà Nội, món ăn vặt không chua mà béo ngậy và thơm ngon này[1] hấp dẫn nhiều giới, đặc biệt là các bạn trẻ. Có thể nói rằng trong số những món quà vặt ưa thích của thanh niên Hà Nội đương thời, nem chua rán là món tuy ra đời muộn nhưng lại gây được \"ảnh hưởng\" nhanh nhất và rộng nhất, lần lượt vượt qua những món truyền thống như sữa chua, hoa quả dầm, sinh tố, kem[2]. Các hàng bán nem chua rán nổi tiếng hiện nay trong nội đô Hà Nội dễ dàng được tìm thấy nơi ngõ Tạm Thương trên đường Hàng Bông[3], phố Tạ Hiện, trường Việt Đức, phố Hàng Bạc, phố Trần Xuân Soạn v.v.[",
+            "menuId": 1
+        },
+        {
+            "id": 5,
+            "name": "Chân gà ngâm sả tắc(5c)",
+            "price": 42000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F5-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F5-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F5-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F5-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Chân gà ngâm sả tắc có vị chua nhẹ của tắc, thơm dịu của sả, cay nồng của ớt và giòn sần sật của chân gà sẽ kích thích vị giác khiến bạn ăn hoài không ngán. Bất cứ ai cũng có thể biết cách làm chân gà ngâm sả tắc giòn cay đã miệng chỉ với vài bước thật đơn giản.",
+            "menuId": 1
+        },
+        {
+            "id": 6,
+            "name": "Phomai que",
+            "price": 23000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F6-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F6-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F6-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F6-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Phô mai que là một món ăn rất ngon miệng và bổ dưỡng. Phô mai que không chỉ có các bé yêu thích mà cả người lớn cũng rất yêu cái vị béo ngậy, thơm giòn của món ăn này. Phô mai que chấm với tương ớt cay cay ngọt ngọt tuyệt vời không thể tả.",
+            "menuId": 1
+        },
+        {
+            "id": 7,
+            "name": "Khoai tây chiên",
+            "price": 33000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F7-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F7-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F7-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F7-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Khoai tây chiên kiểu Pháp (French fries hay fries trong tiếng Anh Mỹ, chips trong tiếng Anh-Anh, phương ngữ Hiberno-English,[1] finger chips của tiếng Anh-Ấn),[2] hay French-fried potatoes là khoai tây chiên giòn cắt thành sợi hoặc hình que.",
+            "menuId": 1
+        },
+        {
+            "id": 8,
+            "name": "Trà sữa Archives",
+            "price": 35000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F8-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F8-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F8-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F8-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Trà sữa Archives",
+            "menuId": 2
+        },
+        {
+            "id": 9,
+            "name": "Trà chanh giải nhiệt",
+            "price": 20000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F9-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F9-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F9-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F9-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Trà chanh giải nhiệt",
+            "menuId": 2
+        },
+        {
+            "id": 10,
+            "name": "Trà đào",
+            "price": 30000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F10-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F10-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F10-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F10-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Trà đào",
+            "menuId": 2
+        },
+        {
+            "id": 11,
+            "name": "Nước mía",
+            "price": 15000,
+            "image": [
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F11-1.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F11-2.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F11-3.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7",
+                "https://firebasestorage.googleapis.com/v0/b/myapp-6f399.appspot.com/o/images%2FFoods%2F11-4.jpg?alt=media&token=a49befed-b109-4378-8c5e-434cbf233ba7"
+            ],
+            "description": "Nước mía",
+            "menuId": 2
+        }
+    ]
+}
