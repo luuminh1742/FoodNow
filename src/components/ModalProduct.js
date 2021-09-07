@@ -205,8 +205,8 @@ const styles = StyleSheet.create({
         // overflow: "hidden",
         // alignItems: "center",
         // justifyContent: "center",
-        width: '70%',
-        height: '70%'
+        width: 250,
+        height: 250
     },
     normalDot: {
         height: 8,

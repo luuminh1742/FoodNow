@@ -13,7 +13,6 @@ import ItemProduct from '../components/ItemProduct';
 import NetInfo from "@react-native-community/netinfo";
 import ModalProduct from '../components/ModalProduct';
 import ModalSearch from '../components/ModalSearch';
-import ModalCart from '../components/ModalCart';
 
 
 
@@ -21,7 +20,7 @@ const styles = HomeStyle;
 const data = require('../fake-data.json');
 
 
-export default HomeScreen = () => {
+export default HomeScreen = (props) => {
 
 
     const [dataProducts, setDataProducts] = useState(data.products);
@@ -30,17 +29,12 @@ export default HomeScreen = () => {
     const flatListRef = useRef();
 
     const header = () => {
-        const [modalVisibleCart, setModalVisibleCart] = useState(false);
-        const showModalCart = () => {
-            setModalVisibleCart(true);
-        }
+
         return (
             <View style={styles.header}>
-                <ModalCart
-                    status={modalVisibleCart}
-                    pressHideModalCart={() => { setModalVisibleCart(false) }}
-                />
-                <TouchableOpacity>
+                <TouchableOpacity
+                    onPress={props.pressMoveToMap}
+                >
                     <Icon
                         style={styles.iconHeader}
                         name='place'
@@ -49,9 +43,7 @@ export default HomeScreen = () => {
                 </TouchableOpacity>
                 <Text style={styles.textHeader}>Hà Nội</Text>
                 <TouchableOpacity
-                    onPress={() => {
-                        showModalCart()
-                    }}
+                    onPress={props.pressMoveToCart}
                 >
                     <Image
                         source={require('../../assets/icons/shopping-cart.png')}
